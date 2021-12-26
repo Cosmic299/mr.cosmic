@@ -84,28 +84,23 @@ Hello I'm ᴍʀ.ᴄᴏsᴍɪᴄ™ ,
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Aᴅᴅ 𝙎𝘼𝙏𝘼𝙉 ™🇮🇳 ᴛᴏ ɢʀᴏᴜᴘ ➕️", url="t.me/the_satan_bot?startgroup=true"),
+            text="➕️ Aᴅᴅ ᴍʀ.ᴄᴏsᴍɪᴄ™ ᴛᴏ ɢʀᴏᴜᴘ ➕️", url="t.me/Mr_Cosmic_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️Aʙᴏᴜᴛ", callback_data="masha_"),
-        InlineKeyboardButton(text="🆘Hᴇʟᴘ", callback_data="help_back"),
+        InlineKeyboardButton(text="ℹ️ᴀʙᴏᴜᴛ", callback_data="masha_"),
+        InlineKeyboardButton(text="🆘ʜᴇʟᴘ", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="📳 Chat Group 📳", url="https://t.me/thedemon_chatz"),
+            text="📳 Chat Group 📳", url="https://t.me/Mr_Cosmic_Chatz"),
         InlineKeyboardButton(
-            text="👥Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ👥", url="https://t.me/satan_support"),
+            text="👥Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ👥", url="https://t.me/Mr_Cosmic_Support"),
     ],
     [  
-        InlineKeyboardButton(text="😈MASTER😈", url="https://t.me/smitmorexd"
+        InlineKeyboardButton(text="✨MY MASTER✨", url="https://t.me/EL_DRAGO_DESTRUCTOR"
     ),
     ], 
-    [
-        InlineKeyboardButton(text="❤️NETWORK❤️", url="https://t.me/The_Demon_Network"
-    ), 
-    ],
-    [   
-        InlineKeyboardButton(text="🔔Uᴘᴅᴀᴛᴇs🔔", url="https://t.me/the_satan_updates"
+        InlineKeyboardButton(text="🔔Uᴘᴅᴀᴛᴇs🔔", url="https://t.me/Mr_Cosmic_Updates"
     ),
     ],
 ]
@@ -113,14 +108,14 @@ buttons = [
 
 
 HELP_STRINGS = """
-༆*𝙎𝘼𝙏𝘼𝙉 ™🇮🇳 comes with many special features in it*༆
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF 𝙎𝘼𝙏𝘼𝙉 ™🇮🇳 *꧂
-𖣘 *All commands can either be used with* `/` *or* `!`.
-𖣘 *If you facing any issue or find any bugs in any command then you can report it to @smitmorexd* [.](https://telegra.ph/file/3e5c4caba104583ec3f1b.jpg)
+ᴍʀ.ᴄᴏsᴍɪᴄ comes with many special features in it*✨
+🛸*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF ᴍʀ.ᴄᴏsᴍɪᴄ *🛸
+𖣘 *All commands can be used with* `/` *or* `!`.
+𖣘 *If you facing any issue or find any bugs in any command then you can report it on @Mr_Cosmic_Support* [.](https://telegra.ph/MrCosmic-11-29)
 """
 
 
-DONATE_STRING = """https://t.me/smitmorexd"""
+DONATE_STRING = """https://t.me/EL_DRAGO_DESTRUCTOR"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -365,7 +360,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *𝙎𝘼𝙏𝘼𝙉 ™🇮🇳*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *ᴍʀ.ᴄᴏsᴍɪᴄ*, a powerful group management bot to help you to manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -398,8 +393,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *𝙎𝘼𝙏𝘼𝙉 ™🇮🇳*
-                 \nHere is the [Source Code](https://t.me/smitmorexd) .""",
+            text=""" Hi..🤗 I'm *ᴍʀ.ᴄᴏsᴍɪᴄ*
+                 \nHere is the [Source Code](https://t.me/EL_DRAGO_DESTRUCTOR) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
@@ -646,7 +641,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1677365574 and DONATION_LINK:
+        if OWNER_ID != 1840990207 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
