@@ -1,58 +1,29 @@
 {
       "name": "Mr Cosmic",
-  
-
-      "logo": "https://telegra.ph/file/0c2a666a4d94ad1616593.jpg",
-
-      "keywords": [
-
-         "telegram",
-
-         "anime",
-
-         "group",
-
-         "manager",
-
-         "innexi"
-
-      ],   
-
    "repository": "https://github.com/Trick34/mr.cosmic",
 
+
    "addons": [
-
       {
-
          "options": {
-
             "version": "12"
-
          },
-
          "plan": "heroku-postgresql"
-
       }
-
    ],
 
    "buildpacks": [
-
     {
-
       "url": "https://github.com/heroku/heroku-buildpack-python"
-
     },
-
     {
-
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-
     }
-
   ],  
 
-   "env": {
+   
+  
+ "env": {
 
       "TOKEN": {
 
@@ -403,11 +374,7 @@
          "required": false,
 
          "value": ""
-
-      }
-
-      
-
+    }
    }
-
 }
+
