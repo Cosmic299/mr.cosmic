@@ -1,2 +1,1 @@
-worker: python3 -m Me.cosmicbot
-ps:scale worker=1
+worker: python3 -m COSMIC BOT
