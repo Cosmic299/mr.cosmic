@@ -1,6 +1,6 @@
 
 {
-      "name": "LovishRoBot",
+      "name": "mr.cosmic",
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -9,7 +9,7 @@
          "manager",
          "Masha"
       ],   
-   "repository": "https://github.com/loverboyXD/LovishRoBoT",
+   "repository": "https://github.com/Trick34/mr.cosmic",
    "addons": [
       {
          "options": {
